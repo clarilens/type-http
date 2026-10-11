@@ -1,0 +1,39 @@
+{
+    "name": "clarilens/type-http",
+    "description": "Typed HTTP values for URLs, methods, headers, requests, and responses.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "http",
+        "type-http",
+        "url",
+        "request",
+        "response"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Clarilens\\Http\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Farkhat Sakibaev",
+            "email": "farkhatlukum@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.5"
+    },
+    "scripts": {
+        "test": "php tests/run.php"
+    },
+    "archive": {
+        "exclude": [
+            "/.idea/",
+            "/*.iml",
+            "/tests/",
+            "/vendor/",
+            "/composer.lock"
+        ]
+    }
+}
